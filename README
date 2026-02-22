@@ -1,0 +1,12 @@
+# Customer Churn Prediction API
+
+Project End-to-End:
+- ML Pipeline (RandomForest / XGBoost)
+- Preprocessing + Feature Engineering
+- API built with FastAPI
+- Dockerized and ready for deployment
+
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run API locally: `uvicorn app.main:app --reload`
+3. Open `http://127.0.0.1:8000/docs` for Swagger UI
