@@ -1,12 +1,37 @@
-# Customer Churn Prediction API
+# 🚀 Customer Churn Prediction API
 
-Project End-to-End:
-- ML Pipeline (RandomForest / XGBoost)
-- Preprocessing + Feature Engineering
-- API built with FastAPI
-- Dockerized and ready for deployment
+## 📌 Project Overview
+This project builds an end-to-end Machine Learning pipeline to predict customer churn.
 
-## How to Run
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run API locally: `uvicorn app.main:app --reload`
-3. Open `http://127.0.0.1:8000/docs` for Swagger UI
+The objective is to identify customers likely to leave a telecom service so proactive retention strategies can be applied.
+
+---
+
+## 🧠 ML Pipeline
+- Data Cleaning & EDA
+- Feature Engineering
+- Handling Imbalanced Data
+- RandomForest & XGBoost models
+- Model Evaluation (Precision, Recall, F1-score)
+- Production-ready preprocessing pipeline
+
+---
+
+## 📊 Model Performance
+- Accuracy: ~78-80%
+- Recall (Churn Class): Improved after imbalance handling
+- Key Features:
+  - Contract Type
+  - Monthly Charges
+  - Tenure
+
+---
+
+## ⚙️ API Deployment
+Built using FastAPI for real-time predictions.
+
+Run locally:
+
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload
